@@ -1,8 +1,23 @@
+# coding=utf-8
+# Copyright 2020-present, BigFish (huui1998@163.com).
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
 import warnings
 import cn_trader as trader
 
 from cn_trader.stock.mainland import Mainland
-from cn_trader.util import is_number, is_stock_symbol, is_valid_date
+from cn_trader.stock.util import is_number, is_stock_symbol, is_valid_date
 from prompt_toolkit import PromptSession
 from prompt_toolkit.completion import WordCompleter
 from prompt_toolkit.cursor_shapes import CursorShape
