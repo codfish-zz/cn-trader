@@ -36,7 +36,7 @@ setup(
     long_description_content_type="text/markdown",
     keywords=["trading", "development"],
     platforms="any",
-    packages=find_packages(exclude=["docs", "docs2", "samples"]),
+    packages=find_packages(exclude=["docs", "docs2", "static", "samples"]),
     include_package_data=True,
     zip_safe=False,
     install_requires=[
