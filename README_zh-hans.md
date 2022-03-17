@@ -20,7 +20,7 @@
 
 <p align="center">
     <a href="https://github.com/codfish-zz/cn-trader/blob/master/LICENSE">
-        <img alt="GitHub" src="https://github.com/codfish-zz/cn-trader/blob/static/license.svg?color=blue">
+        <img alt="GitHub" src="https://github.com/codfish-zz/cn-trader/blob/master/static/license.svg?color=blue">
     </a>
 </p>
 
@@ -62,23 +62,23 @@ $ pip install -r requirements.txt
 >>> ui.main()
 ```
 
-> _主菜单_ ![主菜单](https://github.com/codfish-zz/cn-trader/blob/static/main_menu.png)
+> _主菜单_ ![主菜单](https://github.com/codfish-zz/cn-trader/blob/master/static/main_menu.png)
 
-> _输入证券代码_ ![输入证券代码](https://github.com/codfish-zz/cn-trader/blob/static/input_stock_symbol.png)
+> _输入证券代码_ ![输入证券代码](https://github.com/codfish-zz/cn-trader/blob/master/static/input_stock_symbol.png)
 
-> _修改缺省参数值_ ![修改缺省参数值](https://github.com/codfish-zz/cn-trader/blob/static/change_default_params.png)
+> _修改缺省参数值_ ![修改缺省参数值](https://github.com/codfish-zz/cn-trader/blob/master/static/change_default_params.png)
 
-> _是否绘图_ ![是否绘图](https://github.com/codfish-zz/cn-trader/blob/static/show_picture_or_not.png)
+> _是否绘图_ ![是否绘图](https://github.com/codfish-zz/cn-trader/blob/master/static/show_picture_or_not.png)
 
-> _是否打印交易日志_ ![是否打印交易日志](https://github.com/codfish-zz/cn-trader/blob/static/show_log_or_not.png)
+> _是否打印交易日志_ ![是否打印交易日志](https://github.com/codfish-zz/cn-trader/blob/master/static/show_log_or_not.png)
 
-> _绘图_ ![绘图](https://github.com/codfish-zz/cn-trader/blob/static/plotting_full.png)
+> _绘图_ ![绘图](https://github.com/codfish-zz/cn-trader/blob/master/static/plotting_full.png)
 
-> _绘图放大_ ![绘图放大](https://github.com/codfish-zz/cn-trader/blob/static/plotting_section.png)
+> _绘图放大_ ![绘图放大](https://github.com/codfish-zz/cn-trader/blob/master/static/plotting_section.png)
 
-> _交易日志和回测结果_ ![交易日志和回测结果](https://github.com/codfish-zz/cn-trader/blob/static/show_output.png)
+> _交易日志和回测结果_ ![交易日志和回测结果](https://github.com/codfish-zz/cn-trader/blob/master/static/show_output.png)
 
-> _菜单自动提示_ ![菜单自动提示](https://github.com/codfish-zz/cn-trader/blob/static/menu_completing.png)
+> _菜单自动提示_ ![菜单自动提示](https://github.com/codfish-zz/cn-trader/blob/master/static/menu_completing.png)
 
 ## 测试
 
@@ -89,7 +89,7 @@ $ cd tests
 $ python -m unittest tests.test_stock_mainland.StockMainlandTestCase.test_strategy_check_sma_cross
 ```
 
-> _Output_ > ![Output](https://github.com/codfish-zz/cn-trader/blob/static/unit_test_single.png)
+> _Output_ > ![Output](https://github.com/codfish-zz/cn-trader/blob/master/static/unit_test_single.png)
 
 运行所有测试用例：
 
@@ -98,4 +98,4 @@ $ cd tests
 $ python -m unittest discover -v
 ```
 
-> _Output_ > ![Output](https://github.com/codfish-zz/cn-trader/blob/static/unit_test_all.png)
+> _Output_ > ![Output](https://github.com/codfish-zz/cn-trader/blob/master/static/unit_test_all.png)

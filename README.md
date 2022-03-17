@@ -61,23 +61,23 @@ Run cn-trader with UI interface.
 >>> ui.main()
 ```
 
-> _Main menu_ ![Main menu](https://github.com/codfish-zz/cn-trader/blob/static/main_menu.png)
+> _Main menu_ ![Main menu](https://github.com/codfish-zz/cn-trader/blob/master/static/main_menu.png)
 
-> _Input stock symbol_ ![Input stock symbol](https://github.com/codfish-zz/cn-trader/blob/static/input_stock_symbol.png)
+> _Input stock symbol_ ![Input stock symbol](https://github.com/codfish-zz/cn-trader/blob/master/static/input_stock_symbol.png)
 
-> _Change default parameters_ ![Change default parameters](https://github.com/codfish-zz/cn-trader/blob/static/change_default_params.png)
+> _Change default parameters_ ![Change default parameters](https://github.com/codfish-zz/cn-trader/blob/master/static/change_default_params.png)
 
-> _Show picture or not_ ![Show picture or not](https://github.com/codfish-zz/cn-trader/blob/static/show_picture_or_not.png)
+> _Show picture or not_ ![Show picture or not](https://github.com/codfish-zz/cn-trader/blob/master/static/show_picture_or_not.png)
 
-> _Show log or not_ ![Show log or not](https://github.com/codfish-zz/cn-trader/blob/static/show_log_or_not.png)
+> _Show log or not_ ![Show log or not](https://github.com/codfish-zz/cn-trader/blob/master/static/show_log_or_not.png)
 
-> _Full picture_ ![Full picture](https://github.com/codfish-zz/cn-trader/blob/static/plotting_full.png)
+> _Full picture_ ![Full picture](https://github.com/codfish-zz/cn-trader/blob/master/static/plotting_full.png)
 
-> _Zoom the picture_ ![Zoom the picture](https://github.com/codfish-zz/cn-trader/blob/static/plotting_section.png)
+> _Zoom the picture_ ![Zoom the picture](https://github.com/codfish-zz/cn-trader/blob/master/static/plotting_section.png)
 
-> _Show log and summary_ ![Show log and summary](https://github.com/codfish-zz/cn-trader/blob/static/show_output.png)
+> _Show log and summary_ ![Show log and summary](https://github.com/codfish-zz/cn-trader/blob/master/static/show_output.png)
 
-> _Menu auto-completing_ ![Menu auto-completing](https://github.com/codfish-zz/cn-trader/blob/static/menu_completing.png)
+> _Menu auto-completing_ ![Menu auto-completing](https://github.com/codfish-zz/cn-trader/blob/master/static/menu_completing.png)
 
 ## Testing
 
@@ -88,7 +88,7 @@ $ cd tests
 $ python -m unittest tests.test_stock_mainland.StockMainlandTestCase.test_strategy_check_sma_cross
 ```
 
-> _Output_ ![Output](https://github.com/codfish-zz/cn-trader/blob/static/unit_test_single.png)
+> _Output_ ![Output](https://github.com/codfish-zz/cn-trader/blob/master/static/unit_test_single.png)
 
 Run all test cases.
 
@@ -97,7 +97,7 @@ $ cd tests
 $ python -m unittest discover -v
 ```
 
-> _Output_ ![Output](https://github.com/codfish-zz/cn-trader/blob/static/unit_test_all.png)
+> _Output_ ![Output](https://github.com/codfish-zz/cn-trader/blob/master/static/unit_test_all.png)
 
 ## Create new strategy
 
