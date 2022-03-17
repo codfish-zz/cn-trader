@@ -19,7 +19,7 @@
 </h1>
 
 <p align="center">
-    <a href="https://gitee.com/huui/cn-trader/blob/master/LICENSE">
+    <a href="https://github.com/codfish-zz/cn-trader/blob/master/LICENSE">
         <img alt="GitHub" src="https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/license.svg?color=blue">
     </a>
 </p>
@@ -27,7 +27,7 @@
 <h4 align="center">
     <p>
         <b>English</b> |
-        <a href="https://gitee.com/huui/cn-trader/blob/master/README_zh-hans.md">简体中文</a>
+        <a href="https://github.com/codfish-zz/cn-trader/blob/master/README_zh-hans.md">简体中文</a>
 </h4>
 
 ## Overview
