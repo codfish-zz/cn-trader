@@ -77,7 +77,7 @@ Run cn-trader with UI interface.
 
 > _Show picture or not_ ![Show picture or not](https://gitee.com/huui/cn-trader/raw/master/static/show_picture_or_not.png)
 
-> _Show log or not_ ![Show log or not](https://gitee.com/huui/cn-trader/raw/master/static/static/show_log_or_not.png)
+> _Show log or not_ ![Show log or not](https://gitee.com/huui/cn-trader/raw/master/static/show_log_or_not.png)
 
 > _Full picture_ ![Full picture](https://gitee.com/huui/cn-trader/raw/master/static/plotting_full.png)
 
