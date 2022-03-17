@@ -19,15 +19,15 @@
 </h1>
 
 <p align="center">
-    <a href="https://github.com/codfish-zz/cn-trader/blob/master/LICENSE">
-        <img alt="GitHub" src="https://github.com/codfish-zz/cn-trader/blob/master/static/license.svg?color=blue">
+    <a href="https://gitee.com/huui/cn-trader/blob/master/LICENSE">
+        <img alt="GitHub" src="https://gitee.com/huui/cn-trader/blob/master/static/license.svg?color=blue">
     </a>
 </p>
 
 <h4 align="center">
     <p>
         <b>English</b> |
-        <a href="https://github.com/codfish-zz/cn-trader/blob/master/README_zh-hans.md">简体中文</a>
+        <a href="https://gitee.com/huui/cn-trader/blob/master/README_zh-hans.md">简体中文</a>
 </h4>
 
 ## Overview
@@ -52,6 +52,14 @@ $ cd cn-trader
 $ pip install -r requirements.txt
 ```
 
+Or
+
+```bash
+$ git clone https://gitee.com/huui/cn-trader.git
+$ cd cn-trader
+$ pip install -r requirements.txt
+```
+
 ## Quick tour
 
 Run cn-trader with UI interface.
@@ -61,23 +69,23 @@ Run cn-trader with UI interface.
 >>> ui.main()
 ```
 
-> _Main menu_ ![Main menu](https://github.com/codfish-zz/cn-trader/blob/master/static/main_menu.png)
+> _Main menu_ ![Main menu](https://gitee.com/huui/cn-trader/blob/master/static/main_menu.png)
 
-> _Input stock symbol_ ![Input stock symbol](https://github.com/codfish-zz/cn-trader/blob/master/static/input_stock_symbol.png)
+> _Input stock symbol_ ![Input stock symbol](https://gitee.com/huui/cn-trader/blob/master/static/input_stock_symbol.png)
 
-> _Change default parameters_ ![Change default parameters](https://github.com/codfish-zz/cn-trader/blob/master/static/change_default_params.png)
+> _Change default parameters_ ![Change default parameters](https://gitee.com/huui/cn-trader/blob/master/static/change_default_params.png)
 
-> _Show picture or not_ ![Show picture or not](https://github.com/codfish-zz/cn-trader/blob/master/static/show_picture_or_not.png)
+> _Show picture or not_ ![Show picture or not](https://gitee.com/huui/cn-trader/blob/master/static/show_picture_or_not.png)
 
-> _Show log or not_ ![Show log or not](https://github.com/codfish-zz/cn-trader/blob/master/static/show_log_or_not.png)
+> _Show log or not_ ![Show log or not](https://gitee.com/huui/cn-trader/blob/master/static/show_log_or_not.png)
 
-> _Full picture_ ![Full picture](https://github.com/codfish-zz/cn-trader/blob/master/static/plotting_full.png)
+> _Full picture_ ![Full picture](https://gitee.com/huui/cn-trader/blob/master/static/plotting_full.png)
 
-> _Zoom the picture_ ![Zoom the picture](https://github.com/codfish-zz/cn-trader/blob/master/static/plotting_section.png)
+> _Zoom the picture_ ![Zoom the picture](https://gitee.com/huui/cn-trader/blob/master/static/plotting_section.png)
 
-> _Show log and summary_ ![Show log and summary](https://github.com/codfish-zz/cn-trader/blob/master/static/show_output.png)
+> _Show log and summary_ ![Show log and summary](https://gitee.com/huui/cn-trader/blob/master/static/show_output.png)
 
-> _Menu auto-completing_ ![Menu auto-completing](https://github.com/codfish-zz/cn-trader/blob/master/static/menu_completing.png)
+> _Menu auto-completing_ ![Menu auto-completing](https://gitee.com/huui/cn-trader/blob/master/static/menu_completing.png)
 
 ## Testing
 
@@ -88,7 +96,7 @@ $ cd tests
 $ python -m unittest tests.test_stock_mainland.StockMainlandTestCase.test_strategy_check_sma_cross
 ```
 
-> _Output_ ![Output](https://github.com/codfish-zz/cn-trader/blob/master/static/unit_test_single.png)
+> _Output_ ![Output](https://gitee.com/huui/cn-trader/blob/master/static/unit_test_single.png)
 
 Run all test cases.
 
@@ -97,7 +105,7 @@ $ cd tests
 $ python -m unittest discover -v
 ```
 
-> _Output_ ![Output](https://github.com/codfish-zz/cn-trader/blob/master/static/unit_test_all.png)
+> _Output_ ![Output](https://gitee.com/huui/cn-trader/blob/master/static/unit_test_all.png)
 
 ## Create new strategy
 

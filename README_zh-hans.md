@@ -19,14 +19,14 @@
 </h1>
 
 <p align="center">
-    <a href="https://github.com/codfish-zz/cn-trader/blob/master/LICENSE">
-        <img alt="GitHub" src="https://github.com/codfish-zz/cn-trader/blob/master/static/license.svg?color=blue">
+    <a href="https://gitee.com/huui/cn-trader/blob/master/LICENSE">
+        <img alt="GitHub" src="https://gitee.com/huui/cn-trader/blob/master/static/license.svg?color=blue">
     </a>
 </p>
 
 <h4 align="center">
     <p>
-        <a href="https://github.com/codfish-zz/cn-trader/blob/master/README.md">English</a> |
+        <a href="https://gitee.com/huui/cn-trader/blob/master/README.md">English</a> |
         <b>简体中文</b>
 </h4>
 
@@ -53,6 +53,14 @@ $ cd cn-trader
 $ pip install -r requirements.txt
 ```
 
+或者
+
+```bash
+$ git clone https://gitee.com/huui/cn-trader.git
+$ cd cn-trader
+$ pip install -r requirements.txt
+```
+
 ## 快速上手
 
 启动 cn-trader UI 回测已有策略。
@@ -62,23 +70,23 @@ $ pip install -r requirements.txt
 >>> ui.main()
 ```
 
-> _主菜单_ ![主菜单](https://github.com/codfish-zz/cn-trader/blob/master/static/main_menu.png)
+> _主菜单_ ![主菜单](https://gitee.com/huui/cn-trader/blob/master/static/main_menu.png)
 
-> _输入证券代码_ ![输入证券代码](https://github.com/codfish-zz/cn-trader/blob/master/static/input_stock_symbol.png)
+> _输入证券代码_ ![输入证券代码](https://gitee.com/huui/cn-trader/blob/master/static/input_stock_symbol.png)
 
-> _修改缺省参数值_ ![修改缺省参数值](https://github.com/codfish-zz/cn-trader/blob/master/static/change_default_params.png)
+> _修改缺省参数值_ ![修改缺省参数值](https://gitee.com/huui/cn-trader/blob/master/static/change_default_params.png)
 
-> _是否绘图_ ![是否绘图](https://github.com/codfish-zz/cn-trader/blob/master/static/show_picture_or_not.png)
+> _是否绘图_ ![是否绘图](https://gitee.com/huui/cn-trader/blob/master/static/show_picture_or_not.png)
 
-> _是否打印交易日志_ ![是否打印交易日志](https://github.com/codfish-zz/cn-trader/blob/master/static/show_log_or_not.png)
+> _是否打印交易日志_ ![是否打印交易日志](https://gitee.com/huui/cn-trader/blob/master/static/show_log_or_not.png)
 
-> _绘图_ ![绘图](https://github.com/codfish-zz/cn-trader/blob/master/static/plotting_full.png)
+> _绘图_ ![绘图](https://gitee.com/huui/cn-trader/blob/master/static/plotting_full.png)
 
-> _绘图放大_ ![绘图放大](https://github.com/codfish-zz/cn-trader/blob/master/static/plotting_section.png)
+> _绘图放大_ ![绘图放大](https://gitee.com/huui/cn-trader/blob/master/static/plotting_section.png)
 
-> _交易日志和回测结果_ ![交易日志和回测结果](https://github.com/codfish-zz/cn-trader/blob/master/static/show_output.png)
+> _交易日志和回测结果_ ![交易日志和回测结果](https://gitee.com/huui/cn-trader/blob/master/static/show_output.png)
 
-> _菜单自动提示_ ![菜单自动提示](https://github.com/codfish-zz/cn-trader/blob/master/static/menu_completing.png)
+> _菜单自动提示_ ![菜单自动提示](https://gitee.com/huui/cn-trader/blob/master/static/menu_completing.png)
 
 ## 测试
 
@@ -89,7 +97,7 @@ $ cd tests
 $ python -m unittest tests.test_stock_mainland.StockMainlandTestCase.test_strategy_check_sma_cross
 ```
 
-> _Output_ > ![Output](https://github.com/codfish-zz/cn-trader/blob/master/static/unit_test_single.png)
+> _Output_ > ![Output](https://gitee.com/huui/cn-trader/blob/master/static/unit_test_single.png)
 
 运行所有测试用例：
 
@@ -98,4 +106,4 @@ $ cd tests
 $ python -m unittest discover -v
 ```
 
-> _Output_ > ![Output](https://github.com/codfish-zz/cn-trader/blob/master/static/unit_test_all.png)
+> _Output_ > ![Output](https://gitee.com/huui/cn-trader/blob/master/static/unit_test_all.png)
