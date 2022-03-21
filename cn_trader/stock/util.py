@@ -13,7 +13,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from datetime import datetime
+from datetime import datetime, date, timedelta
+
+
+# 返回距当前时间 days 天之前的时间
+def get_date_before(days):
+    today = date.today()
+    return today - timedelta(days=days)
+
+
+# 返回距当前时间 days 天之后的时间
+def get_date_after(days):
+    today = date.today()
+    return today + timedelta(days=days)
 
 
 def is_number(text, min, max):
