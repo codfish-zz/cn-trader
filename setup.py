@@ -26,7 +26,7 @@ with open(path.join(basedir, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="cn-trader",
-    version="1.0.1",
+    version="1.0.2",
     url="https://github.com/codfish-zz/cn-trader",
     license=" Apache-2.0",
     author="BigFish",
