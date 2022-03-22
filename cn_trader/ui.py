@@ -76,11 +76,11 @@ def main():
                 current_choice = show_stock_mainland_strategy_check()
                 continue
             elif current_choice == "stock_mainland_strategy_check_ene":
-                show_stock_mainland_strategy_check_ene(session)
+                show_stock_mainland_strategy_check_ene()
             elif current_choice == "stock_mainland_strategy_check_sma_bs":
-                show_stock_mainland_strategy_check_sma_bs(session)
+                show_stock_mainland_strategy_check_sma_bs()
             elif current_choice == "stock_mainland_strategy_check_sma_cross":
-                show_stock_mainland_strategy_check_sma_cross(session)
+                show_stock_mainland_strategy_check_sma_cross()
             elif current_choice.lower() in ["quit", "exit"]:
                 break
 
@@ -123,7 +123,7 @@ def show_stock_mainland_strategy_check():
     return result
 
 
-def show_stock_mainland_strategy_check_ene(session):
+def show_stock_mainland_strategy_check_ene():
     title = trader.stock.strategy.Ene.describe
     symbol = "000002"
     start_date = mainland.params["start_date"]
@@ -187,7 +187,7 @@ def show_stock_mainland_strategy_check_ene(session):
     )
 
 
-def show_stock_mainland_strategy_check_sma_bs(session):
+def show_stock_mainland_strategy_check_sma_bs():
     title = trader.stock.strategy.SmaBS.describe
     symbol = "000002"
     period = 20
@@ -264,7 +264,7 @@ def show_stock_mainland_strategy_check_sma_bs(session):
     )
 
 
-def show_stock_mainland_strategy_check_sma_cross(session):
+def show_stock_mainland_strategy_check_sma_cross():
     title = trader.stock.strategy.SmaCross.describe
     symbol = "000002"
     pfast = 10
