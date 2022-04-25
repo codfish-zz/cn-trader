@@ -70,23 +70,23 @@ $ pip install -r requirements.txt
 >>> ui.main()
 ```
 
-> _主菜单_ ![主菜单](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/main_menu.png)
+> _主菜单_ ![主菜单](https://pic.imgdb.cn/item/6266e5e6239250f7c5a66a50.png)
 
-> _输入证券代码_ ![输入证券代码](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/input_stock_symbol.png)
+> _输入证券代码_ ![输入证券代码](https://pic.imgdb.cn/item/6266e59a239250f7c5a60b03.png)
 
-> _修改缺省参数值_ ![修改缺省参数值](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/change_default_params.png)
+> _修改缺省参数值_ ![修改缺省参数值](https://pic.imgdb.cn/item/6266e59a239250f7c5a60aff.png)
 
-> _是否绘图_ ![是否绘图](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/show_picture_or_not.png)
+> _是否绘图_ ![是否绘图](https://pic.imgdb.cn/item/6266e5ef239250f7c5a67631.png)
 
-> _是否打印交易日志_ ![是否打印交易日志](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/show_log_or_not.png)
+> _是否打印交易日志_ ![是否打印交易日志](https://pic.imgdb.cn/item/6266e5e6239250f7c5a66a7b.png)
 
-> _绘图_ ![绘图](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/plotting_full.png)
+> _绘图_ ![绘图](https://pic.imgdb.cn/item/6266e5e6239250f7c5a66a68.png)
 
-> _绘图放大_ ![绘图放大](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/plotting_section.png)
+> _绘图放大_ ![绘图放大](https://pic.imgdb.cn/item/6266e5e6239250f7c5a66a72.png)
 
-> _交易日志和回测结果_ ![交易日志和回测结果](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/show_output.png)
+> _交易日志和回测结果_ ![交易日志和回测结果](https://pic.imgdb.cn/item/6266e5ef239250f7c5a6762c.png)
 
-> _菜单自动提示_ ![菜单自动提示](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/menu_completing.png)
+> _菜单自动提示_ ![菜单自动提示](https://pic.imgdb.cn/item/6266e5e6239250f7c5a66a58.png)
 
 ## 测试
 
@@ -97,7 +97,7 @@ $ cd tests
 $ python -m unittest tests.test_stock_mainland.StockMainlandTestCase.test_strategy_check_sma_cross
 ```
 
-> _Output_ > ![Output](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/unit_test_single.png)
+> _Output_ > ![Output](https://pic.imgdb.cn/item/6266e5ef239250f7c5a6763b.png)
 
 运行所有测试用例：
 
@@ -106,4 +106,4 @@ $ cd tests
 $ python -m unittest discover -v
 ```
 
-> _Output_ > ![Output](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/unit_test_all.png)
+> _Output_ > ![Output](https://pic.imgdb.cn/item/6266e5ef239250f7c5a67635.png)
