@@ -20,7 +20,7 @@
 
 <p align="center">
     <a href="https://github.com/codfish-zz/cn-trader/blob/master/LICENSE">
-        <img alt="GitHub" src="https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/license.svg?color=blue">
+        <img alt="license.png" src="https://pic.imgdb.cn/item/6266e702239250f7c5a7c8d0.png">
     </a>
 </p>
 
