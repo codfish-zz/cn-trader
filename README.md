@@ -20,7 +20,7 @@
 
 <p align="center">
     <a href="https://github.com/codfish-zz/cn-trader/blob/master/LICENSE">
-        <img alt="GitHub" src="https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/license.svg?color=blue">
+        <img alt="license.png" src="https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/license.svg?color=blue">
     </a>
 </p>
 
@@ -69,23 +69,23 @@ Run cn-trader with UI interface.
 >>> ui.main()
 ```
 
-> _Main menu_ ![Main menu](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/main_menu.png)
+> _Main menu_ ![Main menu](https://pic.imgdb.cn/item/6266e5e6239250f7c5a66a50.png)
 
-> _Input stock symbol_ ![Input stock symbol](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/input_stock_symbol.png)
+> _Input stock symbol_ ![Input stock symbol](https://pic.imgdb.cn/item/6266e59a239250f7c5a60b03.png)
 
-> _Change default parameters_ ![Change default parameters](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/change_default_params.png)
+> _Change default parameters_ ![Change default parameters](https://pic.imgdb.cn/item/6266e59a239250f7c5a60aff.png)
 
-> _Show picture or not_ ![Show picture or not](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/show_picture_or_not.png)
+> _Show picture or not_ ![Show picture or not](https://pic.imgdb.cn/item/6266e5ef239250f7c5a67631.png)
 
-> _Show log or not_ ![Show log or not](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/show_log_or_not.png)
+> _Show log or not_ ![Show log or not](https://pic.imgdb.cn/item/6266e5e6239250f7c5a66a7b.png)
 
-> _Full picture_ ![Full picture](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/plotting_full.png)
+> _Full picture_ ![Full picture](https://pic.imgdb.cn/item/6266e5e6239250f7c5a66a68.png)
 
-> _Zoom the picture_ ![Zoom the picture](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/plotting_section.png)
+> _Zoom the picture_ ![Zoom the picture](https://pic.imgdb.cn/item/6266e5e6239250f7c5a66a72.png)
 
-> _Show log and summary_ ![Show log and summary](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/show_output.png)
+> _Show log and summary_ ![Show log and summary](https://pic.imgdb.cn/item/6266e5ef239250f7c5a6762c.png)
 
-> _Menu auto-completing_ ![Menu auto-completing](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/menu_completing.png)
+> _Menu auto-completing_ ![Menu auto-completing](https://pic.imgdb.cn/item/6266e5e6239250f7c5a66a58.png)
 
 ## Testing
 
@@ -96,7 +96,7 @@ $ cd tests
 $ python -m unittest tests.test_stock_mainland.StockMainlandTestCase.test_strategy_check_sma_cross
 ```
 
-> _Output_ ![Output](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/unit_test_single.png)
+> _Output_ ![Output](https://pic.imgdb.cn/item/6266e5ef239250f7c5a6763b.png)
 
 Run all test cases.
 
@@ -105,7 +105,7 @@ $ cd tests
 $ python -m unittest discover -v
 ```
 
-> _Output_ ![Output](https://huui1998.pythonanywhere.com/admin/uploads/cn-trader/unit_test_all.png)
+> _Output_ ![Output](https://pic.imgdb.cn/item/6266e5ef239250f7c5a67635.png)
 
 ## Create new strategy
 
